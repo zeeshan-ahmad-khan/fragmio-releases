@@ -1,11 +1,12 @@
 {
-  "version": "1.16.4",
+  "version": "1.17.0",
   "channel": "beta",
   "date": "2026-11-11",
   "download": "https://fragmio.vercel.app/download",
   "notes": [
-    "The Beta label in the app now matches the website and the download page",
-    "Updates are now built and published automatically, so fixes reach you faster"
+    "Eight new colour themes, each in dark and light (View → Theme)",
+    "New Berry look: app icon, file icon and the default theme",
+    "The logo now matches the colour theme you pick"
   ],
   "important": false
 }
