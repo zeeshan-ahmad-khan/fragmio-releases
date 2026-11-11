@@ -1,0 +1,11 @@
+{
+  "version": "1.16.0",
+  "channel": "beta",
+  "date": "2026-11-11",
+  "download": "https://fragmio.vercel.app/download",
+  "notes": [
+    "About window, Check for updates and Send feedback in the Help menu",
+    "Beta label and footer"
+  ],
+  "important": false
+}
