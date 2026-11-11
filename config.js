@@ -13,4 +13,5 @@ window.FRAGMIO = {
   upiId: "", // e.g. 'yourname@okaxis'          (empty = hidden)
   // Feedback: a Google Form link (Send → link icon). Empty = the page shows "coming soon".
   feedbackFormUrl: "",
+  youtubeChannel: "https://www.youtube.com/@all_blue_z",
 };
