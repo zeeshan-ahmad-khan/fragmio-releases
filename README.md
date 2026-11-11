@@ -33,7 +33,7 @@ For YouTube Shorts, Instagram Reels, TikTok, LinkedIn and Facebook.</p>
 
 Get the latest version from the **[Releases](../../releases)** page, or from the [Fragmio website](https://fragmio.vercel.app/download).
 
-1. Download `Fragmio-Setup-x.y.z.exe`.
+1. Download `Fragmio-x.y.z-setup.exe`.
 2. Run it. Windows may show "Windows protected your PC" because the app is new. Click **More info → Run anyway**.
 3. Open Fragmio, pick a video and start marking clips.
 
