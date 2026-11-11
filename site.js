@@ -5,6 +5,12 @@
   document.querySelectorAll('[data-releases]').forEach(function (a) { a.href = c.releasesUrl })
   document.querySelectorAll('[data-version]').forEach(function (e) { e.textContent = c.version })
   document.querySelectorAll('[data-date]').forEach(function (e) { e.textContent = c.date })
+  // Channel: badges show "Alpha"/"Beta"; on "stable" they and the alpha/beta-only notes disappear.
+  var ch = (c.channel || 'stable').toLowerCase()
+  var Ch = ch.charAt(0).toUpperCase() + ch.slice(1)
+  document.querySelectorAll('[data-channel]').forEach(function (e) { if (ch === 'stable') e.classList.add('hidden'); else e.textContent = Ch })
+  document.querySelectorAll('[data-channel-word]').forEach(function (e) { e.textContent = ch === 'stable' ? '' : ch + ' ' })
+  document.querySelectorAll('[data-prerelease-only]').forEach(function (e) { if (ch === 'stable') e.classList.add('hidden') })
   document.querySelectorAll('[data-year]').forEach(function (e) { e.textContent = new Date().getFullYear() })
 
   // Support page

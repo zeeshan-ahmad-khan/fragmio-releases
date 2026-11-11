@@ -18,7 +18,7 @@ HEAD = '''<!doctype html>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><img src="/logo.svg" alt="">Fragmio <span class="beta">Beta</span></a>
+  <a class="brand" href="/"><img src="/logo.svg" alt="">Fragmio <span class="beta" data-channel>Beta</span></a>
   <nav class="links">
     <a href="/#features"{on_f}>Features</a>
     <a href="/feedback"{on_fb}>Feedback</a>
@@ -68,7 +68,7 @@ ILLUS = '''<svg class="illus" viewBox="0 0 820 300" role="img" aria-label="One l
 pages = {}
 pages['index'] = ('Fragmio: turn one long video into many short clips', 'Free offline Windows app: cut one long video into Shorts, Reels and TikTok clips, add text and frames, export them all at once.', 'f', f'''
 <div class="wrap hero">
-  <span class="beta">Free beta · Windows</span>
+  <span class="beta">Free <span data-channel-word>beta </span>· Windows</span>
   <h1>One long video.<br>Many short clips.</h1>
   <p class="lead">Fragmio cuts your podcast, stream or talk into vertical clips for Shorts, Reels, TikTok, LinkedIn and Facebook, all on your own computer.</p>
   <div class="cta"><a class="btn primary" href="/download">Download for Windows</a><a class="btn" href="#features">See what it does</a></div>
@@ -106,23 +106,23 @@ pages['index'] = ('Fragmio: turn one long video into many short clips', 'Free of
     <li>Works fully offline</li>
     <li>Connects only when you click <b>Check for updates</b>, and sends nothing about you</li>
     <li>No account, no sign-in, no watermark</li>
-    <li>Free during the beta</li>
+    <li>Free to use</li>
   </ul>
 </div></section>
 <section class="band"><div class="wrap" style="text-align:center">
-  <h2>Try the beta</h2>
-  <p class="sub" style="margin:0 auto 24px">It's free while in beta. Tell us what breaks, and what you'd like next.</p>
+  <h2>Try Fragmio</h2>
+  <p class="sub" style="margin:0 auto 24px">It's free. Tell us what breaks, and what you'd like next.</p>
   <div class="cta"><a class="btn primary" href="/download">Download for Windows</a><a class="btn" href="/feedback">Send feedback</a></div>
 </div></section>
 ''')
 
-pages['download'] = ('Download Fragmio for Windows', 'Download the free Fragmio beta for Windows 10 and 11.', '', '''
+pages['download'] = ('Download Fragmio for Windows', 'Download Fragmio free for Windows 10 and 11.', '', '''
 <div class="wrap page">
   <h1>Download Fragmio</h1>
-  <p class="lead">Free during the beta. For Windows 10 and 11 (64-bit).</p>
+  <p class="lead">Free. For Windows 10 and 11 (64-bit).</p>
   <div class="two">
     <div class="panel">
-      <h2 style="margin:0">Fragmio <span data-version></span> <span class="beta">Beta</span></h2>
+      <h2 style="margin:0">Fragmio <span data-version></span> <span class="beta" data-channel>Beta</span></h2>
       <div class="meta"><span>Released <span data-date></span></span><span>Windows installer (.exe)</span></div>
       <a class="btn primary" data-download href="#">Download the installer</a>
       <p style="margin:14px 0 0;font-size:14px;color:var(--muted)">Opens the newest release on GitHub. Under <b>Assets</b>, click <code>Fragmio-…-setup.exe</code>. <a data-releases href="#">Older versions</a></p>

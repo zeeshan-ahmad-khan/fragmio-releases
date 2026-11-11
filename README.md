@@ -13,7 +13,9 @@ For YouTube Shorts, Instagram Reels, TikTok, LinkedIn and Facebook.</p>
   <a href="https://fragmio.vercel.app/support">Support the maker</a>
 </p>
 
+<!-- channel-notice -->
 > **Fragmio is in beta.** Everything is free while the beta runs. Please tell us what breaks.
+<!-- /channel-notice -->
 
 ---
 
