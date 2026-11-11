@@ -43,9 +43,9 @@ console.log('version.json →', json)
 const cfg = existsSync('config.js') ? 'config.js' : 'website/config.js'
 if (existsSync(cfg)) {
   const s = readFileSync(cfg, 'utf8')
-    .replace(/version: '[^']*'/, `version: '${version}'`)
-    .replace(/date: '[^']*'/, `date: '${pretty}'`)
-    .replace(/channel: '[^']*'/, `channel: '${json.channel}'`)
+    .replace(/version:\s*(["'])[^"']*\1/, `version: '${version}'`)
+    .replace(/date:\s*(["'])[^"']*\1/, `date: '${pretty}'`)
+    .replace(/channel:\s*(["'])[^"']*\1/, `channel: '${json.channel}'`)
   writeFileSync(cfg, s)
   console.log(cfg, '→', version, pretty)
 }
