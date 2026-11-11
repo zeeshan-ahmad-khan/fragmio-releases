@@ -9,7 +9,7 @@
   }
   function toggleMode() { r.dataset.theme = r.dataset.theme === 'dark' ? 'light' : 'dark'; save('fr-theme', r.dataset.theme) }
   document.querySelectorAll('#picker [data-p]').forEach(function (b) { b.onclick = function () { setPal(b.dataset.p) } })
-  setPal(r.dataset.pal || 'duo')
+  setPal(r.dataset.pal || 'berry')
   var m = document.getElementById('mode'); if (m) m.onclick = toggleMode
   var t = document.getElementById('theme'); if (t) t.onclick = toggleMode
 })()
