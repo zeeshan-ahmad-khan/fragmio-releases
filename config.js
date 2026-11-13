@@ -1,8 +1,8 @@
 // Everything you may want to change, in one place.
 window.FRAGMIO = {
-  version: "1.17.1",
-  channel: "beta", // alpha / beta / stable (set automatically when a release is published)
-  date: "11 Nov 2026",
+  version: '1.18.0',
+  channel: 'beta', // alpha / beta / stable (set automatically when a release is published)
+  date: '13 Nov 2026',
   // The newest installer. "releases/latest" always shows the newest release on GitHub.
   downloadUrl:
     "https://github.com/all-bluez/fragmio-releases/releases/latest",

@@ -1,12 +1,21 @@
 {
-  "version": "1.17.1",
+  "version": "1.18.0",
   "channel": "beta",
-  "date": "2026-11-11",
+  "date": "2026-11-13",
   "download": "https://fragmio.vercel.app/download",
   "notes": [
-    "Eight new colour themes, each in dark and light (View → Theme)",
-    "New Berry look: app icon, file icon and the default theme",
-    "The logo now matches the colour theme you pick"
+    "Add your own pictures: drag them onto the video, make them round, add a border or shadow, or put them behind the video",
+    "Stickers, and My logo: save your logo once and put it on every clip",
+    "Two new templates: Creator post and Gamer banner",
+    "Captions: import SRT or VTT, paste your text or tap along to time it, with speaker names in colour",
+    "AI captions (Pro, free in the beta): Fragmio listens to your video and writes timed captions, fully offline, in English and Hindi",
+    "Auto-sync (Pro, free in the beta): your pasted lines line up with the voice by themselves",
+    "Words and Karaoke animations: words appear or light up exactly as they are spoken",
+    "Gradient text and shadows in any direction",
+    "Pro features now show a PRO label (everything stays free during the beta)",
+    "Galleries and caption lines open beside the video instead of covering it",
+    "The colour picker follows the mouse smoothly",
+    "Editing is paused while the video file is missing, so nothing changes by mistake"
   ],
   "important": false
 }
