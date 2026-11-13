@@ -1,0 +1,6 @@
+# Keep line endings the same on Windows and on the GitHub bot (Linux),
+# so version.json and config.js don't show as changed after every git pull.
+* text=auto eol=lf
+*.png binary
+*.ico binary
+*.jpg binary
